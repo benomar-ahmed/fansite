@@ -1,0 +1,424 @@
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*#########################################       PAGE INDEX     ###########################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+
+
+
+
+
+/*################################################################################*/
+/*                              BODY                                            */
+/*                              BODY                                            */
+/*                              BODY                                            */
+/*################################################################################*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', cursive;
+}
+
+
+
+
+
+/*################################################################################*/
+/*                              MAIN                                            */
+/*                              MAIN                                            */
+/*                              MAIN                                            */
+/*################################################################################*/
+
+
+
+main {
+    background-color: #fa95a0;
+}
+
+
+
+
+/*################################################################################*/
+/*                              HEADER                                            */
+/*                              HEADER                                            */
+/*                              HEADER                                            */
+/*################################################################################*/
+
+
+
+#Hero {
+    width: 100%;
+}
+
+#img_accueil_nav {
+    width: 100px;
+    height: 100px;
+}
+
+#img_actualités {
+    width: 100px;
+    height: 100px;
+}
+
+#Logo {
+    height: 110px;
+}
+
+#img_QuiSommesNous {
+    width: 100px;
+    height: 100px;
+}
+
+#img_contact {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    padding: 0;
+}
+
+#list_nav {
+    display: flex;
+    margin: 0%;
+    padding: 0;
+}
+
+.ImgAndListNav {
+    width: 100%;
+    list-style-type: none;
+    background-color: #fa95a0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.ImgAndListNav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*################################################################################*/
+/*                              SECTION 1                                         */
+/*                              SECTION 1                                         */
+/*                              SECTION 1                                         */
+/*################################################################################*/
+
+#section1 {
+    background-image: url("Images/img_body.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+#présentation  {
+    text-align: center;
+    padding: 5%;
+    border: 3px solid #fa95a0;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+
+/*################################################################################*/
+/*                              SECTION 2                                         */
+/*                              SECTION 2                                         */
+/*                              SECTION 2                                         */
+/*################################################################################*/
+
+
+#section2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#section2_1 {
+    background-color: #e38792;
+    padding: 2%;
+}
+
+#titre_Actualités {
+    display: flex;
+    justify-content: center;
+}
+
+#un_actualité {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#img_actualités_1 {
+    width: 296px;
+    height: 126px;
+    padding-right: 5%;
+}
+
+#deux_actualité {
+    margin-bottom: 5%;
+    display: flex;
+}
+
+#scan1064_index {
+    width: 296px;
+    height: 126px;
+    padding-right: 5%;
+}
+
+#trois_actualité {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+#OnePieceRed2{
+    width: 950px;
+    height: 300px; 
+    padding-right: 5%;
+}
+
+#quatre_actualité {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Episode1038 {
+    width: 130%;
+    padding-right: 5%;
+}
+
+.part_actualité {
+    border: 5px solid black;
+    border-radius: 10px;;
+}
+
+#EichiroOda {
+    display: flex;
+    flex-direction: column;
+    background-color: #e38792;
+    margin-left: 1%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#EichiroOda h3 {
+    text-align: center;
+}
+
+#EichiroOda p {
+    margin-top: 30%;
+}
+
+
+
+/*################################################################################*/
+/*                              FOOTER                                         */
+/*                              FOOTER                                         */
+/*                              FOOTER                                         */
+/*################################################################################*/
+
+
+
+#logoAndReseauSocial {
+    display: flex;
+    background-color: black;
+    padding: 6%;
+}
+
+#logo_footer {
+    width: 50%;
+}
+
+#nav_footer1 {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+    height: 90px;
+    width: 500px;
+}
+
+#nav_footer1 li {
+    font-size: 150%;
+    margin: 7%;
+}
+
+#nav_footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*#########################################       PAGE CONTACT     #########################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+
+
+#main_contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+#luffy {
+    width: 50%;
+}
+
+#main_contact div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+    width: 400px;
+    height: 500px;
+    color: white;
+    background-color: #e38792;
+}
+
+#main_contact div form {
+    text-align: center;
+    height: 400px;
+}
+
+.name {
+    width: 80%;
+}
+
+#texte {
+    height: 200px;
+    width: 245px;
+}
+
+#envoie {
+    margin-top: 5%;
+    width: 50%;
+}
+
+
+
+
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*#########################################       PAGE SCAN/EPISODE     ####################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+/*##########################################################################################################################*/
+
+
+
+#trois_premiers_scans {
+    display: flex;
+    flex-direction: column;
+}
+
+#trois_derniers_scans{
+    display: flex;
+    flex-direction: column;
+}
+
+#main_scan-episode div h1 {
+    text-align: center;
+    margin: 5%;
+}
+
+#scan01 {
+    display: flex;
+}
+
+#scan01 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan02 {
+    display: flex;
+}
+
+#scan02 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan03 {
+    display: flex;
+}
+
+#scan03 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan1062 {
+    display: flex;
+}
+
+#scan1062 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan1063 {
+    display: flex;
+}
+
+#scan1063 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan1064 {
+    display: flex;
+}
+
+#scan1064 div h2 a {
+    color:black;
+    text-decoration: none;
+}
+
+#scan1 {
+    width: 10%;
+    margin: 2%;
+}
+
+#scan2 {
+    width: 10%;
+    margin: 2%;
+}
+
+#scan3 {
+    width: 10%;
+    margin: 2%;
+}
+
+#img_scan1062{
+    width: 10%;
+    margin: 2%;
+}
+
+#img_scan1063{
+    width: 10%;
+    margin: 2%;
+}
+
+#img_scan1064{
+    width: 10%;
+    margin: 2%;
+}
